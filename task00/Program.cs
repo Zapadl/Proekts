@@ -1,2 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 0. напишите программу , которая на вход
+// 1. принимает число
+// 2. выдает его квадрат (число умноженное на само себя)
+// 3. вывод результат
+// например:
+// 4 -> 16
+// -3 -> 9
+// -7 -> 49
+Console.Clear();
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
+int square = num * num;
+Console.WriteLine($"Квадрат числа {num} = {square}");
+//диапозон данных  типа инт -2 147 483 648 до 2 147 483 647
