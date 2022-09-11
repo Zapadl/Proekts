@@ -10,11 +10,10 @@ int num = Convert.ToInt32(Console.ReadLine());
 int count = 1;
 void Square(int num1, int count1)
 {
-    while (count1 <= num1 && num1 > 0)
+    while (count1 <= num1)
     {
         Console.WriteLine($"|{count1} -> {count1 * count1, 3}|");
         count1++;
     }
-    Console.WriteLine("Введено число отрицательное");
-}
+    }
 Square(num, count);
