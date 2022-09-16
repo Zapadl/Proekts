@@ -5,9 +5,9 @@
 // 89126 -> 5
 
 
-// Console.Clear();
-// Console.Write("Введите число: ");
-// int num = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+Console.Write("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
 // int i =1;
 // int Count( int num)
 // {
