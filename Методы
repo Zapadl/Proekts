@@ -11,7 +11,7 @@
 //     return array;
 // }
 
-метод вывода на печать 
+метод вывода на печать массива
 // void PrintArray (int[] array)
 // {
 //     Console.Write("[");
